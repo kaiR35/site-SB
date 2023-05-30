@@ -1,0 +1,938 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(to right, #6b5042, #d5a58b);
+    font-family:Arial, Helvetica, sans-serif
+}
+
+/*-inicio-*/
+.header-button-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-logo img{
+    width: 13rem;
+    position: absolute;
+    top: 1%;
+    left: 0.8%;
+}
+
+.header-button-side-left{
+    height: 100%;
+    flex-basis: 90%;
+    padding: 6rem;
+}
+
+.header-button-side-left h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #2b150a;
+    font-size: 2.5rem;
+}
+
+.header-button-side-left h2 span{
+    color: rgb(241, 200, 172);
+    font-weight: bold;
+}
+
+.imagem-translucida{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+  
+.imagem-translucida::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 3%;
+    background-image: linear-gradient(to right, #97725d, rgba(14, 10, 5, 0));
+}
+  
+.imagem-translucida img {
+    display: block;
+    width: 110%;
+}
+   
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(10, 177, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    transition: 0.2s;
+}
+
+.whatsapp-button:hover{
+    background-color: rgb(2, 117, 2);
+}
+
+.whatsapp-button img {
+    width: 50%;
+    height: auto;
+}
+ 
+/*-main 01-*/
+main{
+    background-color: #ccad9a;
+    height: 45rem;
+}
+
+.descrition{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.descrition h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 7rem;
+    color: #2b150a;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.descrition h3 span{
+    color: rgb(243, 229, 229);
+}
+
+.subtitle-underline{
+    width: 100px;
+    height: 5px;
+    background: rgb(22, 10, 2);
+    border-radius: 9999px;
+    margin: 8px auto 0 auto;
+}
+
+.descrition p{
+    font-weight: bold;
+    color: #000000;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.descrition button{
+    background-color:rgb(105, 75, 50);
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 3.8rem;
+    border-radius: 0%;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: all 0.2s;
+    margin-bottom: 4rem;
+}
+
+.descrition button:hover{
+    color: rgb(88, 42, 5);
+}
+
+/*-main 02-*/
+.introduction-all{
+    background-color: #dab5a3;
+}
+
+.introduction-crio h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 8rem;
+}
+
+.introduction-crio h4 span{
+    color: rgb(105, 51, 7);
+    font-weight: bold;
+    
+}
+
+.introduction{
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    justify-content: space-evenly;
+    text-align: right;
+    padding: 2rem 5rem;
+    font-size: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.introduction-left{
+    display: grid;
+    justify-content: space-evenly;
+}
+
+.introduction-right{
+    display: grid;
+    text-align: left;
+    padding-right: 20%;
+    justify-content: space-evenly;
+    font-size: 2rem;
+ 
+}
+
+/*-main 03-*/
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 25%; /* Define a largura das imagens para 25% do contêiner */
+    height: auto; /* Mantém a proporção da altura */
+}
+
+/*-main 04-*/
+.before-after-all{
+    background-color: #e2c4b5;
+}
+
+.before-after-text{
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 5rem 7rem;
+}
+
+.before-after-text h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(44, 26, 11);
+    font-size: 2.7rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.before-after-text h5 span{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.before-after-text p{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2.5rem;
+    color: #2b1c14;
+    font-weight: normal;
+    font-size: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+.before-after-images{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.before-after-images img{
+    position: relative; 
+    width: 900px; /* Define a largura da imagem */
+    height: 550px; /* Define a altura da imagem */
+    overflow: hidden; 
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.descrition-dois{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descrition-dois button{
+    background-color:#442b1e;
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 3.8rem;
+    border-radius: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: all 0.2s;
+    margin-bottom: 4rem;
+}
+
+.descrition-dois button:hover{
+    color: rgb(88, 42, 5);
+}
+
+/*main 05*/
+.final{
+    background-color: #ccad9a;
+}
+
+.final-head{
+    color: #2b150a;
+    text-align: left;
+    font-size: 2rem;
+    padding: 6rem 17rem;
+}
+
+.final-head h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #2b1c14;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+}
+
+.final-head h6 span{
+    color: rgb(255, 255, 255);
+}
+
+.final-head p{
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 3rem;
+    font-size: 1.7rem;
+}
+
+/*-main 06-*/
+.contatos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contatos-desc {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    flex: 1;
+    padding-top: 1%;
+    line-height: 2rem;
+    padding-bottom: 1%;
+  }
+  
+/*-rodapé-*/
+footer {
+    background-color: #f1f1f1; /* Cor de fundo do rodapé */
+    padding: 20px; /* Espaçamento interno do rodapé */
+    text-align: center; /* Alinhamento do texto ao centro */
+  }
+
+  /*-media-*/
+
+@media (max-width: 800px){
+.header-button-side{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-button-side-left h2{
+    font-weight: bold;
+    color: #2b150a;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+}
+
+.imagem-translucida{
+    display: block;
+}
+
+.imagem-translucida img {
+    display: flex;
+    width: 100%;
+}
+
+/*-01-*/
+main{
+    background-color: #ccad9a;
+    height: 55rem;
+}
+
+.descrition h3{
+    line-height: 3rem;
+    color: #2b150a;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+.descrition p{
+    color: white;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.descrition button{
+    background-color:#2b150a;
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 3.8rem;
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+    margin-bottom: 4rem;
+}
+
+/*-02-*/
+.introduction-crio h4{
+    background-color: rgb(248, 240, 231);
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.introduction-crio h4 span{
+    font-weight: bold;
+    text-decoration: underline
+}
+
+.introduction{
+    display: grid;
+    justify-content: space-evenly;
+    text-align: right;
+    padding: 2rem 5rem;
+    font-size: 2rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.introduction-left{
+    display: grid;
+    justify-content: space-evenly;
+}
+
+.introduction-left img{
+    width: 350px;
+    height: 290px;
+}
+
+.introduction-right{
+    display: grid;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 1.4rem;
+ 
+}
+
+/*-04-*/
+.before-after-text{
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+.before-after-text h5{
+    color: #2b150a;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.before-after-text h5 span{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.before-after-text p{
+    color: white;
+    font-weight: normal;
+    font-size: 1.4rem;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.before-after-images{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.before-after-images img{
+    position: relative; 
+    width: 370px; /* Define a largura da imagem */
+    height: 300px; /* Define a altura da imagem */
+    overflow: hidden; 
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.descrition-dois button{
+    background-color:#2b150a;
+    border: none;
+    cursor: pointer;
+    padding: 0.8rem 3.8rem;
+    border-radius: 9999px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+    margin-bottom: 4rem;
+}
+
+/*-05-*/
+.final-head{
+    color: white;
+    text-align: left;
+    font-size: 2rem;
+    padding: 1rem 1rem;
+}
+
+.final-head h6{
+    color: goldenrod;
+    font-weight: normal;
+    padding-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.final-head h6 span{
+    font-weight: bold;
+    color: white;
+}
+
+.final-head p{
+    padding-bottom: 3rem;
+    font-size: 1.4rem;
+}
+}
+
+@media (max-width: 1300px){
+    .img-logo img{
+        width: 9rem;
+        position: absolute;
+        top: 2%;
+        left: 2%;
+    }
+    .header-button-side{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .header-button-side-left h2{
+        text-align: center;
+        font-weight: bold;
+        color: #2b150a;
+        font-size: 1.5rem;
+        padding-left: 0rem;
+    }
+    
+    .imagem-translucida{
+        display: block;
+    }
+    
+    .imagem-translucida img {
+        display: flex;
+        width: 100%;
+    }
+    
+    /*-01-*/
+    main{
+        background-color: #ccad9a;
+        height: 55rem;
+    }
+    
+    .descrition h3{
+        line-height: 3rem;
+        color: #2b150a;
+        font-size: 2rem;
+        font-weight: normal;
+        padding-top: 2%;
+    }
+    
+    .descrition p{
+        color: #2b150a;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        margin-top: 4rem;
+        padding-bottom: 4rem;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .descrition button{
+        background-color:rgb(39, 30, 8);
+        border: none;
+        cursor: pointer;
+        padding: 0.8rem 3.8rem;
+        border-radius: 0px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 0.9rem;
+        transition: all 0.2s;
+        margin-bottom: 4rem;
+    }
+    
+    /*-02-*/
+    .introduction-crio h4{
+        background-color: rgb(248, 240, 231);
+        font-weight: normal;
+        color: rgb(0, 0, 0);
+        font-size: 1.8rem;
+        text-align: center;
+        line-height: 3rem;
+    }
+    
+    .introduction-crio h4 span{
+        font-weight: bold;
+        text-decoration: underline
+    }
+    
+    .introduction{
+        display: grid;
+        justify-content: space-evenly;
+        text-align: right;
+        padding: 2rem 5rem;
+        font-size: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .introduction-left{
+        display: grid;
+        justify-content: space-evenly;
+    }
+    
+    .introduction-left img{
+        width: 350px;
+        height: 290px;
+    }
+    
+    .introduction-right{
+        display: grid;
+        text-align: center;
+        justify-content: space-evenly;
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 1.4rem;
+     
+    }
+    
+    /*-04-*/
+    .before-after-text{
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+    
+    .before-after-text h5{
+        color: #2b150a;
+        font-size: 2rem;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin-bottom: 3rem;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    
+    .before-after-text h5 span{
+        color: white;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+    .before-after-text p{
+        color: #2b150a;
+        font-weight: normal;
+        font-size: 1.4rem;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    
+    .before-after-images{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    
+    .before-after-images img{
+        position: relative; 
+        width: 400px; /* Define a largura da imagem */
+        height: 300px; /* Define a altura da imagem */
+        overflow: hidden; 
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+    
+    .descrition-dois button{
+        background-color:rgb(37, 29, 8);
+        border: none;
+        cursor: pointer;
+        padding: 0.8rem 3.8rem;
+        border-radius: 0px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 0.9rem;
+        transition: all 0.2s;
+        margin-bottom: 4rem;
+    }
+    
+    /*-05-*/
+    .final-head{
+        color: #2b150a;
+        text-align: left;
+        font-size: 2rem;
+        padding: 1rem 1rem;
+    }
+    
+    .final-head h6{
+        color: #2b150a;
+        font-weight: bold;
+        padding-bottom: 3rem;
+        font-size: 2rem;
+    }
+    
+    .final-head h6 span{
+        font-weight: bold;
+        color: white;
+    }
+    
+    .final-head p{
+        padding-bottom: 3rem;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 1440px){
+    .img-logo img{
+        width: 9rem;
+        position: absolute;
+        top: 0%;
+        left: 2%;
+    }
+    main{
+        background-color: #ccad9a;
+        height: 60rem;
+    }
+}
+
+@media (max-width: 1530px){
+    .img-logo img{
+        width: 9rem;
+        position: absolute;
+        top: 0%;
+        left: 2%;
+    }
+    main{
+        background-color: #ccad9a;
+        height: 60rem;
+    }
+}
+
+@media (max-width: 400px){
+    .header-button-side{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .header-button-side-left h2{
+        font-weight: bold;
+        color: #2b150a;
+        font-size: 1.5rem;
+        padding-left: 3rem;
+    }
+    
+    .imagem-translucida{
+        display: block;
+    }
+    
+    .imagem-translucida img {
+        display: flex;
+        width: 100%;
+    }
+    
+    /*-01-*/
+    main{
+        background-color: #ccad9a;
+        height: 55rem;
+    }
+    
+    .descrition h3{
+        line-height: 3rem;
+        color: #2b150a;
+        font-size: 2rem;
+        font-weight: normal;
+        padding-top: 2%;
+    }
+    
+    .descrition p{
+        color: #2b150a;
+        font-size: 1.4rem;
+        line-height: 2rem;
+        margin-top: 4rem;
+        padding-bottom: 4rem;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    .descrition button{
+        background-color:#2b150a;
+        border: none;
+        cursor: pointer;
+        padding: 0.8rem 3.8rem;
+        border-radius: 0px;
+        color: rgb(255, 254, 254);
+        font-weight: bold;
+        font-size: 0.8rem;
+        transition: all 0.2s;
+        margin-bottom: 4rem;
+    }
+    
+    /*-02-*/
+    .introduction-crio h4{
+        background-color: rgb(248, 240, 231);
+        font-weight: normal;
+        color: rgb(0, 0, 0);
+        font-size: 1.8rem;
+        text-align: center;
+        line-height: 3rem;
+    }
+    
+    .introduction-crio h4 span{
+        font-weight: bold;
+        text-decoration: underline
+    }
+    
+    .introduction{
+        display: grid;
+        justify-content: space-evenly;
+        text-align: right;
+        padding: 2rem 5rem;
+        font-size: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .introduction-left{
+        display: grid;
+        justify-content: space-evenly;
+    }
+    
+    .introduction-left img{
+        width: 350px;
+        height: 290px;
+    }
+    
+    .introduction-right{
+        display: grid;
+        text-align: center;
+        justify-content: space-evenly;
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 1.4rem;
+     
+    }
+    
+    /*-04-*/
+    .before-after-text{
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+    
+    .before-after-text h5{
+        color: #2b150a;
+        font-size: 2rem;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin-bottom: 3rem;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    
+    .before-after-text h5 span{
+        color: white;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+    .before-after-text p{
+        color: white;
+        font-weight: normal;
+        font-size: 1.4rem;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    
+    .before-after-images{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    
+    .before-after-images img{
+        position: relative; 
+        width: 370px; /* Define a largura da imagem */
+        height: 300px; /* Define a altura da imagem */
+        overflow: hidden; 
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+    
+    .descrition-dois button{
+        background-color:#2b150a;
+        border: none;
+        cursor: pointer;
+        padding: 0.8rem 3.8rem;
+        border-radius: 0px;
+        color: rgb(252, 251, 251);
+        font-weight: bold;
+        font-size: 0.8rem;
+        transition: all 0.2s;
+        margin-bottom: 4rem;
+    }
+    
+    /*-05-*/
+    .final-head{
+        color: #2b150a;
+        text-align: left;
+        font-size: 2rem;
+        padding: 1rem 1rem;
+    }
+    
+    .final-head h6{
+        color: #2b150a;
+        font-weight: normal;
+        padding-bottom: 3rem;
+        font-size: 2rem;
+    }
+    
+    .final-head h6 span{
+        font-weight: bold;
+        color: #2b150a;
+    }
+    
+    .final-head p{
+        padding-bottom: 3rem;
+        font-size: 1.4rem;
+    }
+}
