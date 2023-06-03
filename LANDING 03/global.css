@@ -192,16 +192,33 @@ main{
 }
 
 /*-main 03-*/
-.image-container {
-    display: flex;
+.artigo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    font-weight: bold;
+    color: rgb(105, 51, 7);
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem 5rem; 
 }
 
-.image-container img {
-    width: 25%; /* Define a largura das imagens para 25% do contêiner */
-    height: auto; /* Mantém a proporção da altura */
+.artigo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artigo-img img{
+    padding: 1rem;
+    padding-left: 4rem;
+    height: 600px;
 }
 
 /*-main 04-*/
+.depoiments img{
+    padding-top: 2rem;
+}
+
 .before-after-all{
     background-color: #e2c4b5;
 }
@@ -249,7 +266,7 @@ main{
     width: 900px; /* Define a largura da imagem */
     height: 550px; /* Define a altura da imagem */
     overflow: hidden; 
-    padding-top: 4rem;
+    padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
@@ -436,6 +453,28 @@ main{
     padding-right: 3%;
     font-size: 1.4rem;
  
+}
+
+.artigo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    font-weight: bold;
+    color: rgb(105, 51, 7);
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 5rem; 
+}
+
+.artigo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artigo-img img{
+    padding: 1rem;
+    padding-left: 4rem;
+    height: 600px;
 }
 
 /*-04-*/
@@ -634,6 +673,13 @@ main{
         font-size: 1.4rem;
      
     }
+
+    .artigo-img img{
+        padding: 1rem;
+        padding-left: 1rem;
+        width: 600px;
+        height: 500px;
+    }
     
     /*-04-*/
     .before-after-text{
@@ -732,6 +778,29 @@ main{
         background-color: #ccad9a;
         height: 60rem;
     }
+
+    .artigo{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: white;
+        font-weight: bold;
+        color: rgb(105, 51, 7);
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem 5rem; 
+    }
+    
+    .artigo-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .artigo-img img{
+        padding: 1rem;
+        padding-left: 1rem;
+        width: 500px;
+        height: 500px;
+    }
 }
 
 @media (max-width: 1530px){
@@ -744,6 +813,13 @@ main{
     main{
         background-color: #ccad9a;
         height: 60rem;
+    }
+
+    .artigo-img img{
+        padding: 1rem;
+        padding-left: 1rem;
+        width: 500px;
+        height: 500px;
     }
 }
 
@@ -849,6 +925,29 @@ main{
         padding-right: 3%;
         font-size: 1.4rem;
      
+    }
+
+    .artigo{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: white;
+        font-weight: bold;
+        color: rgb(105, 51, 7);
+        font-size: 2rem;
+        text-align: center;
+        padding: 1rem 5rem; 
+    }
+    
+    .artigo-img{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .artigo-img img{
+        padding: 1rem;
+        padding-left: 1rem;
+        width: 500px;
+        height: 500px;
     }
     
     /*-04-*/
