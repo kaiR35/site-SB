@@ -5,7 +5,7 @@
 }
 
 body{
-    background: linear-gradient(to right, #6b5042, #d5a58b);
+    background: linear-gradient(to right, #5e311b, #d5a58b);
     font-family:Arial, Helvetica, sans-serif
 }
 
@@ -37,7 +37,7 @@ body{
 }
 
 .header-button-side-left h2 span{
-    color: rgb(241, 200, 172);
+    color: rgb(243, 237, 234);
     font-weight: bold;
 }
 
@@ -88,7 +88,7 @@ body{
  
 /*-main 01-*/
 main{
-    background-color: #ccad9a;
+    background-color: #e8ae8b;
     height: 45rem;
 }
 
@@ -106,7 +106,7 @@ main{
 }
 
 .descrition h3 span{
-    color: rgb(243, 229, 229);
+    color: rgb(243, 234, 234);
 }
 
 .subtitle-underline{
