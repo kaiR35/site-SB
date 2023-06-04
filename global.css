@@ -215,8 +215,15 @@ main{
 }
 
 /*-main 04-*/
+.depoiments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .depoiments img{
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .before-after-all{
