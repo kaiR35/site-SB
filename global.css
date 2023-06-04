@@ -383,7 +383,7 @@ footer {
 
 /*-01-*/
 main{
-    background-color: #ccad9a;
+    background-color: #e8ae8b;
     height: 55rem;
 }
 
@@ -546,6 +546,10 @@ main{
 }
 
 /*-05-*/
+.final{
+    background-color: #e8ae8b;
+}
+
 .final-head{
     color: white;
     text-align: left;
@@ -603,7 +607,7 @@ main{
     
     /*-01-*/
     main{
-        background-color: #ccad9a;
+        background-color: #e8ae8b;
         height: 55rem;
     }
     
@@ -750,6 +754,9 @@ main{
     }
     
     /*-05-*/
+    .final{
+        background-color: #e8ae8b;
+    }
     .final-head{
         color: #2b150a;
         text-align: left;
@@ -857,7 +864,7 @@ main{
     
     /*-01-*/
     main{
-        background-color: #ccad9a;
+        background-color: #e8ae8b;
         height: 55rem;
     }
     
@@ -1021,6 +1028,9 @@ main{
     }
     
     /*-05-*/
+    .final{
+        background-color: #e8ae8b;
+    }
     .final-head{
         color: #2b150a;
         text-align: left;
