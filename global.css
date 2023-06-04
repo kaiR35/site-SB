@@ -947,6 +947,7 @@ main{
     
     .artigo-img img{
         padding: 0rem;
+        padding-top: 0.5rem;
         padding-left: 1rem;
         width: 370px;
         height: 350px;
